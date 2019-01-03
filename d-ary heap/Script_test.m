@@ -1,0 +1,9 @@
+clear
+clc
+
+A=[3,2,7,6,15,11,28,1,4,5,9,10,16];
+A=BUILD_MAX_DHEAP(A,3,13);
+[A,Max]=EXTRACT_DMAX(A,3,13);
+
+
+A=MAX_DHEAP_INSERT(A,28,3);
